@@ -1,0 +1,32 @@
+# Compiled class files
+*.class
+bin/
+build/
+dist/
+out/
+
+# IDE
+.idea/
+.vscode/
+.classpath
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*~
+*.swp
+*.swo
+
+# Packages
+*.zip
+*.tar.gz
+*.rar
+*.jar
