@@ -19,15 +19,15 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("╔════════════════════════════════════════════╗");
-        System.out.println("║   SISTEMA DE GERENCIAMENTO DE PIZZARIA    ║");
-        System.out.println("║     Demonstração de Padrões GoF (3/23)    ║");
+        System.out.println("║   SISTEMA DE GERENCIAMENTO DE PIZZARIA     ║");
+        System.out.println("║     Demonstração de Padrões GoF (3/23)     ║");
         System.out.println("╚════════════════════════════════════════════╝\n");
 
         // ============================================================
         // 1️⃣ FACTORY PATTERN - Criando pizzas usando a factory
         // ============================================================
         System.out.println("\n╔═══════════════════════════════════════════════╗");
-        System.out.println("║  1. FACTORY PATTERN - Criando Pizzas         ║");
+        System.out.println("║  1. FACTORY PATTERN - Criando Pizzas          ║");
         System.out.println("╚═══════════════════════════════════════════════╝\n");
 
         System.out.println("Criando 3 pizzas diferentes usando PizzaFactory...\n");
@@ -46,7 +46,7 @@ public class Main {
         // 2️⃣ STRATEGY PATTERN - Testando diferentes estratégias de pagamento
         // ============================================================
         System.out.println("\n╔═══════════════════════════════════════════════╗");
-        System.out.println("║  2. STRATEGY PATTERN - Testando Pagamentos   ║");
+        System.out.println("║  2. STRATEGY PATTERN - Testando Pagamentos    ║");
         System.out.println("╚═══════════════════════════════════════════════╝\n");
 
         // Criar pedido 1 com pagamento por débito
@@ -73,7 +73,7 @@ public class Main {
         // 3️⃣ OBSERVER PATTERN - Notificações de mudança de status
         // ============================================================
         System.out.println("\n╔═══════════════════════════════════════════════╗");
-        System.out.println("║  3. OBSERVER PATTERN - Sistema de Notificação║");
+        System.out.println("║  3. OBSERVER PATTERN - Sistema de Notificação ║");
         System.out.println("╚═══════════════════════════════════════════════╝\n");
 
         System.out.println("Registrando observadores para o Pedido #1...\n");
